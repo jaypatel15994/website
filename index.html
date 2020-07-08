@@ -1,11 +1,59 @@
 <html>
-<title>Jay Patel</title>
-<body>
-<h1>
-Hello there!
-Welcome to my personal site.
-
-JP
-</h1>
-</body>
+    <head>
+        <title>Jay Patel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .container {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
+        
+        .bottom-left {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+        }
+        
+        .top-left {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+        }
+        
+        .top-right {
+          position: absolute;
+          top: 8px;
+          right: 16px;
+        }
+        
+        .bottom-right {
+          position: absolute;
+          bottom: 8px;
+          right: 16px;
+        }
+        
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h2>Welcome there!</h2>
+        <p>This is my personal space. Portfolio coming soon.</p>
+        
+        <div class="container">
+          <img src="myimage.jpg" alt="Image" style="width:60%;">
+          <div class="bottom-left"></div>
+          <div class="top-left"></div>
+          <div class="top-right"></div>
+          <div class="bottom-right"></div>
+          <div class="centered"></div>
+        </div>
+        
+        </body>
 </html>
