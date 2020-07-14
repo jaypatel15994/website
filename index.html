@@ -1,59 +1,357 @@
-<html>
-    <head>
-        <title>Jay Patel</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-        .container {
-          position: relative;
-          text-align: center;
-          color: white;
-        }
-        
-        .bottom-left {
-          position: absolute;
-          bottom: 8px;
-          left: 16px;
-        }
-        
-        .top-left {
-          position: absolute;
-          top: 8px;
-          left: 16px;
-        }
-        
-        .top-right {
-          position: absolute;
-          top: 8px;
-          right: 16px;
-        }
-        
-        .bottom-right {
-          position: absolute;
-          bottom: 8px;
-          right: 16px;
-        }
-        
-        .centered {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        }
-        </style>
-        </head>
-        <body>
-        
-        <h2>Welcome there!</h2>
-        <p>This is my personal space. Portfolio coming soon.</p>
-        
-        <div class="container">
-          <img src="myimage.jpg" alt="Image" style="width:60%;">
-          <div class="bottom-left"></div>
-          <div class="top-left"></div>
-          <div class="top-right"></div>
-          <div class="bottom-right"></div>
-          <div class="centered"></div>
-        </div>
-        
-        </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jay Patel | Web Developer</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    
+    <header class="header">
+        <div class="container clearfix">  
+                              
+            
+            <div class="profile-content float-left">
+                <!-- <h1 class="name">Jay Patel</h1> -->
+                <img class="profile-image float-left" src="assets/images/favicon.ico"/>   
+                <h2 class="name">Web Developer</h2>   
+                <!-- <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/jaypatel15994/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/jaypatel15994/" target="_blank"><i class="fab fa-github-alt"></i></a></li>                
+                </ul>  -->
+            </div><!--//profile-->
+            <!-- <a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>               -->
+            <img class="profile-image img-fluid float-right rounded-circle" src="assets/images/profile.png" alt="profile image" />
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>Focused and result driven IT professional with <b>more than three years of experience</b> and a proven knowledge 
+                            of web development with <b>PHP, JavaScript, MySQL and many more.</b> 
+                            Willingness and proven ability to quickly acquire proficient development skills in new areas and technologies. 
+                            Ability to work in Agile, collaborative and open communicative environment.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured ">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://canberrabushwalkingclub.org/" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/canberra.gif" alt="Canberra Bushwalking Club" />
+                                    </a>
+                                </div>
+                                <h3 class="title mb-3">Canberra bushwalking Club</h3>
+                                <div class="desc text-left">      
+                                    <p>Website to manage multiple walks around ‘Canberra’ city of Australia where user can sign up and search for various activities. 
+                                        User can also participate in activity using website and collect pictures taken in that activity. </p>
+                                    
+                                    <p><b>Tech stack: PHP, WordPress, CodeIgniter, JavaScript, CSS, Bootstrap, PHPMailer</b></p>                              
+                                 
+                                <a class="more-link" href="https://canberrabushwalkingclub.org/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>Find out more
+                                </a> 
+                                </div>      
+                            </div>
+                            <hr class="divider" />
+
+                            <div class="item featured ">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://www.millcreekangus.com.au/" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/millcreek.gif" alt="Millcreek" />
+                                    </a>
+                                </div>
+                                <h3 class="title mb-3">Millcreek</h3>
+                                <div class="desc text-left">      
+                                    <p>A small and simple website for beef dealer. User can see various images and get contact information of dealer. </p>
+                                    
+                                    <p><b>Tech stack: JavaScript, CSS</b></p>                              
+                                 
+                                <a class="more-link" href="https://www.millcreekangus.com.au/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>Find out more
+                                </a> 
+                                </div>      
+                            </div>
+                            <hr class="divider" />
+
+                            <div class="item featured ">
+                                <div class="featured-image has-ribbon">
+                                    
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/qmetco.gif" alt="QMetco" />
+                                    
+                                </div>
+                                <h3 class="title mb-3">QMetco</h3>
+                                <div class="desc text-left">      
+                                    <p>An informational site for coal producers located in Brisbane, Australia. Details of company and announcements are displayed on website.  </p>
+                                    
+                                    <p><b>Tech stack: PHP, WordPress, JavaScript, CSS </b></p>                              
+                                </div>      
+                            </div>
+                            <hr class="divider" />
+
+
+                            <div class="item row">
+                                <div class="desc col-md-12 col-12">
+                                    <h3 class="title">35 bars</h3>
+                                    <p class="mb-2">An E-commerce website for a bar which provides liquor and other beverages at doorstep. User can place an order, receive delivery notifications and contact for complaints.  </p>
+                                    <p><b>Tech stack: PHP, Laravel, JavaScript, CSS, Bootstrap, Mailchimp, Google maps APIs, Git </b></p>  
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            <hr class="divider" />
+
+                            <div class="item row">
+                                <div class="desc col-md-12 col-12">
+                                    <h3 class="title">Activity tracker</h3>
+                                    <p class="mb-2">Fully responsive web application developed in PHP language where user can sign in and keep the record of his/her daily activities based on categories. User can also add or delete activities.</p>
+                                    <p><b>Tech stack: PHP, JavaScript, CSS, Docker</b></p>  
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+
+                            <!-- <div class="item row">
+                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank">DevCard - Bootstrap 4 Portfolio Template for Software Developers</a></h3>
+                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-4-vcard-portfolio-template-for-software-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div>                         
+                            </div> -->
+                            
+                            
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+            
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Sr. PHP Developer - <span class="place"><a href="https://www.manektech.com/" target="_blank">ManekTech</a></span> <span class="year">(2018 - 2019)</span></h3>
+                                <ul>
+                                    <li>Manage a team to create efficient web-services </li>
+                                    <li>Develop websites and Optimize database </li>
+                                    <li>Analyze code</li>
+                                    <li>Communicate with clients for maintenance and expansion</li>
+                                </ul>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">PHP Developer - <span class="place"><a href="https://www.zealousys.com/" target="_blank">Zealous system</a></span> <span class="year">(2016 - 2018)</span></h3>
+                                <ul>
+                                    <li>Integrate UI elements developed by front-end developers </li>
+                                    <li>Build efficient, testable, and reusable PHP modules  </li>
+                                    <li>Maintain and expand/enhance the website once built  </li>
+                                    <li>Work closely with web designers and quality engineers to produce error-free site </li>
+                                </ul>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Other Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Baker - <span class="place"><a href="https://www.timhortons.com/" target="_blank">Tim Hortons</a></span> <span class="year">(2020 - Present)</span></h3>
+                                <ul>
+                                    <li>Cook breakfast and lunch </li>
+                                    <li>Bake donuts and other bakery products </li>
+                                    <li>Clean baking station and maintain hygiene </li>
+                                </ul>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Overnight fulfillment associate - <span class="place"><a href="https://www.walmart.ca/en" target="_blank">Walmart</a></span> <span class="year">(2019 - 2020)</span></h3>
+                                <ul>
+                                    <li>Stock products on shelf </li>
+                                    <li>Clean workplace at the end of shift </li>
+                                    <li>Report to manager if anything is missing </li>
+                                </ul>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12 aos-init aos-animate" data-aos="fade-left" data-aos-delay="100">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Montreal, QC</li>
+                                <li><i class="fas fa-phone"></i><span class="sr-only">Phone:</span><a href="tel:514-913-1530">(514) 913-1530</a></li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:jaypatel15994@gmail.com">jaypatel15994@gmail.com</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="http://www.jaypatel.website" target="_blank">www.jaypatel.website</a></li>
+                                <li><i class="fab fa-linkedin"></i><span class="sr-only">LinkedIn:</span><a href="https://www.linkedin.com/in/jaypatel15994/" target="_blank">linkedin.com/in/jaypatel15994/</a></li>
+                                <li><i class="fab fa-github"></i><span class="sr-only">GitHub:</span><a href="https://github.com/jaypatel15994/" target="_blank">github.com/jaypatel15994/</a></li>
+                                <li><i class="fas fa-id-badge"></i><span class="sr-only">Resume:</span><a href="https://1drv.ms/b/s!Ala-DNhlEqz9iXK-tAhpEE5Lzd2l" target="_blank">Resume</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Languages</h3>
+                                    <p>PHP, MySQL, JavaScript, HTML5, CSS3, React, Android, Java, C, C++, C#, XML, JSON</p>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title">Frameworks & CMS</h3>
+                                    <p>Laravel, Wordpress, CodeIgniter, jQuery, Bootstrap</p>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title">Services</h3>
+                                    <p>Google maps API, Paypal, Mailchimp, Docker</p>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title">Version Control</h3>
+                                    <p>Git, SVN, BitBucket</p>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title">Task management tools</h3>
+                                    <p>Trello, Asana, RedMine</p>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title">Tools</h3>
+                                    <p>Visual studio code, Visual studio, Eclipse, Android Studio, Brackets</p>
+                                </div>
+
+                                <div class="item">
+                                    <h3 class="level-title">Other</h3>
+                                    <p>RESTful APIs, Agile methodology, Scrum, MVC Archietecture</p>
+                                </div>
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="testimonials aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fas fa-quote-left"></i>
+                                        In addition to his good work as coder, 
+                                        Jay has strong skills in communicating with clients. I would describe Jay as hard-working,
+                                        reliable programmer, who would be a valuable asset in any firm. He is the kind of person 
+                                        whose main concern is to do the job well, and he has skills and experience to back that up.
+                                    </p>
+                                </blockquote>                
+                                <p class="source"><span class="name">Linda Groom</span><br /><span class="title">Canberra Bushwalking Club Inc</span></p>                                                             
+                            </div><!--//item-->
+                            
+                            
+                            <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p>  -->
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Programming & Web Technologies</h3>
+                                <h4 class="university">Post graduation Diploma <span class="year">(2019-2021)</span></h4>
+                                <h4 class="university">L'institut Supérieur d'Informatique - Montreal, QC</h4>
+                            </div><!--//item-->
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Computer Engineering</h3>
+                                <h4 class="university">Bachelor of Engineering <span class="year">(2012-2016)</span></h4>
+                                <h4 class="university">L J Institute of Engineering and Technology - Ahmedabad, India </h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Hindi:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Made with <i class="fas fa-heart"></i> by <b>Jay Patel</b></small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
