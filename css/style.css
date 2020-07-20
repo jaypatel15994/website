@@ -1288,3 +1288,6 @@ footer .credits a {
 .testimonial-box .description {
   padding: 0;
 }
+.table-cell {
+  vertical-align: bottom;
+}
