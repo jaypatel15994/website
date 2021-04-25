@@ -1294,3 +1294,15 @@ footer .credits a {
 .intro-subtitle{
   margin-bottom: 5rem;
 }
+
+.work-img{
+  position: relative;
+}
+.work-img img{
+  position: absolute;
+}
+.work-img:after{
+    content: "";
+    display: block;
+    padding-bottom: 50%;
+}
